@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zzWgoKReyYg7jEzc4bV3gzWz9ILYabm8Yks/dWkrP1VB5bZyMPaNScZKWtD4GG2UjGnvCr0E/pYB1KAvCIZ5LQ==",
+  "dgSpecHash": "pW+oHLmOGq5SWLWULxN5RIufrdhymQ7lE30iEkUbFY4oOiDCufEzYMBxg9tvX5FjWrRZyKHaoOM0K5ydVT24yA==",
   "success": true,
   "projectFilePath": "G:\\SFT\\SFT.csproj",
   "expectedPackageFiles": [
@@ -166,7 +166,7 @@
     "C:\\Users\\cupl\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\cupl\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
     "C:\\Users\\cupl\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.4\\system.security.cryptography.pkcs.6.0.4.nupkg.sha512",
-    "C:\\Users\\cupl\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\cupl\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
     "C:\\Users\\cupl\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
     "C:\\Users\\cupl\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\cupl\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",

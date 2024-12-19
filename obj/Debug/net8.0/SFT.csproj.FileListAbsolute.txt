@@ -272,5 +272,5 @@ G:\SFT\bin\Debug\net8.0\System.Security.Permissions.dll
 G:\SFT\bin\Debug\net8.0\System.Windows.Extensions.dll
 G:\SFT\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 G:\SFT\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
-G:\SFT\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 G:\SFT\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+G:\SFT\obj\Debug\net8.0\SFT.sourcelink.json

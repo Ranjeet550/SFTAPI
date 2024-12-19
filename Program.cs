@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using SFT.Services;
 using System;
 using System.Text;
 
@@ -56,6 +57,7 @@ namespace SFT
                         )
                     };
                 });
+            builder.Services.AddScoped<ILoggerService, LoggerService>();
 
             var app = builder.Build();
 

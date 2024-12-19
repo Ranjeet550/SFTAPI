@@ -24,9 +24,11 @@ namespace SFT.Model
             public string EmailAddress { get; set; }
 
             public string Designation { get; set; }
+        public bool Status { get; set; } = true;
 
-            // New property for profile picture path
-            public string ProfilePicturePath { get; set; }
+
+        // New property for profile picture path
+        public string ProfilePicturePath { get; set; }
         
     }
 }
