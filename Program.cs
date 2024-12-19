@@ -15,10 +15,14 @@ namespace SFT
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddControllers()
+                .AddJsonOptions(options =>
+                {
+                    // Allow trailing commas in JSON requests
+                    options.JsonSerializerOptions.AllowTrailingCommas = true;
+                });
 
-            builder.Services.AddControllers();
-
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            // Configure Swagger/OpenAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -57,6 +61,8 @@ namespace SFT
                         )
                     };
                 });
+
+            // Register LoggerService
             builder.Services.AddScoped<ILoggerService, LoggerService>();
 
             var app = builder.Build();
@@ -67,6 +73,12 @@ namespace SFT
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            else
+            {
+                // Global Exception Handling Middleware in Production
+                app.UseExceptionHandler("/Error");
+                app.UseHsts();
+            }
 
             app.UseHttpsRedirection();
 
@@ -76,6 +88,7 @@ namespace SFT
             app.UseCors();
             app.UseStaticFiles();
 
+            // Map controllers
             app.MapControllers();
 
             app.Run();
